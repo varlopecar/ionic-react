@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@capacitor/android": "4.6.0",
     "@capacitor/app": "4.1.1",
     "@capacitor/core": "4.6.0",
     "@capacitor/haptics": "4.1.0",
@@ -10,6 +11,7 @@
     "@capacitor/status-bar": "4.1.1",
     "@ionic/react": "^6.0.0",
     "@ionic/react-router": "^6.0.0",
+    "@ionic/storage": "^3.0.6",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^12.6.3",
@@ -39,7 +41,8 @@
     "workbox-range-requests": "^5.1.4",
     "workbox-routing": "^5.1.4",
     "workbox-strategies": "^5.1.4",
-    "workbox-streams": "^5.1.4"
+    "workbox-streams": "^5.1.4",
+    "zustand": "^4.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
